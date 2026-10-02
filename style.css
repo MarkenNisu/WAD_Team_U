@@ -1,1 +1,20 @@
+/* ===== ÜHISED STIILID ===== */
 
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+nav {
+    display: flex;
+}
+
+button {
+    padding: 10px 20px;
+    border-radius: 5px;
+}
