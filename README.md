@@ -4,4 +4,4 @@ Repository for homeworks
 Team members:
 * Marken Nisu
 * Märten Kõrv
-* -
+* Aleksei Voltšihhin
