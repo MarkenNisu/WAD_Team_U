@@ -78,6 +78,47 @@ input {
     margin-top: 5px;
 }
 
+/* ADD POST */
+
+.add-post-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+
+    width: 300px;
+    margin: 40px auto;
+    padding: 25px;
+
+    background-color: #d3d3d3;
+    border-radius: 8px;
+}
+
+/* CHILD SELECTOR */
+.add-post-form > label {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.add-post-form textarea {
+    width: 100%;
+    min-height: 80px;
+    resize: vertical;
+    box-sizing: border-box;
+}
+
+.add-post-form input[type="file"] {
+    max-width: 100%;
+}
+
+.add-post-form button {
+    align-self: center;
+}
+
+/* ADJACENT SIBLING SELECTOR */
+.add-post-form label + button {
+    margin-top: 10px;
+}
 .login-form a {
     color: #007bff;
     text-decoration: none;
