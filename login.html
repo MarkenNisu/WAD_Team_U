@@ -1,1 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Kuvab lehe telefoni tegeliku ekraanilaiuse järgi, mitte nagu suurt PC lehte mida peaks välja zoomima -->
+    <title>Login - PostIt</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <a href="index.html">Home</a>
+            <img src="images/default_pilt.webp"
+            alt="Profile"
+            class="profile-icon">
+        </nav>
+    </header>
+
+    <main class="login-main">
+        <form class="login-form" action="index.html">
+            <h2>Welcome to PostIt</h2>
+            <a href="#" class="create-account">Create an account</a>
+            <span>or</span>
+            <p>Please log in</p>
+            <input
+                type="email"
+                name="email"
+                placeholder="Email"
+                required>
+            <input
+                type="password"
+                name="password"
+                placeholder="Password"
+                required>
+            <button type="submit">Log in</button>
+            <a href="#" class="forgot-password">Forget password</a>
+        </form>
+    </main>
+
+</body>
+</html>
