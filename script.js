@@ -93,3 +93,11 @@
         postElement.append(likeButtonElement);
         postsElement.append(postElement);
     }));
+
+
+    const profilePicture = document.getElementById("profilePicture");
+    const profileMenu = document.querySelector(".profile-menu");
+
+    profilePicture.addEventListener("click", function() {
+        profileMenu.classList.toggle("show");
+    });
