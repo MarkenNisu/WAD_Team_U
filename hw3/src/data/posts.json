@@ -1,0 +1,72 @@
+[
+  {
+    "id": 1,
+    "author": "Ülo Üliõpilane",
+    "date": "Oct 3, 2026",
+    "text": "I hate cake...",
+    "image": "images/cake.jpg"
+  },
+  {
+    "id": 2,
+    "author": "Tarmo Tamm",
+    "date": "Oct 2, 2026",
+    "text": "Hahahaha I love cake, this trend is amazing",
+    "image": "images/cake.jpg"
+  },
+  {
+    "id": 3,
+    "author": "Henri Hispaanlane",
+    "date": "Sept 30, 2026",
+    "text": "donde esta la biblioteca",
+    "image": null
+  },
+  {
+    "id": 4,
+    "author": "Ülo Üliõpilane",
+    "date": "Sept 29, 2026",
+    "text": "Whoever baked this cake is a genius",
+    "image": "images/cake.jpg"
+  },
+  {
+    "id": 5,
+    "author": "Tarmo Tamm",
+    "date": "Sept 20, 2026",
+    "text": "Guys what do you think of this cake I baked?",
+    "image": "images/cake.jpg"
+  },
+  {
+    "id": 6,
+    "author": "Kadri Kass",
+    "date": "Sept 19, 2026",
+    "text": "My cat sleeps in a weird spot. Does anyone else's cat do the same?",
+    "image": "images/catsleeping.jpg"
+  },
+  {
+    "id": 7,
+    "author": "Teele Tudeng",
+    "date": "Sept 19, 2026",
+    "text": "I studied all night for my exam, but they asked completely different questions...",
+    "image": null
+  },
+  {
+    "id": 8,
+    "author": "Peeter Piim",
+    "date": "Sept 17, 2026",
+    "text": "Today I bought milk from the store.",
+    "image": null
+  },
+  {
+    "id": 9,
+    "author": "Peeter Puhkus",
+    "date": "Sept 17, 2026",
+    "text": "Look at this amazing view from my vacation!",
+    "image": "images/vacation.jpg"
+  },
+  {
+    "id": 10,
+    "author": "Kalev Koer",
+    "date": "Sept 15, 2026",
+    "text": "Look at my dog!",
+    "image": "images/dog.jpg"
+  }
+]
