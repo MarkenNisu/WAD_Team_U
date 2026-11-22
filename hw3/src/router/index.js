@@ -1,5 +1,6 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import HomeView from '../views/HomeView.vue'
+import SignupView from '../views/SignupView.vue'
 
 // Loob Vue Routeri, mis haldab rakenduse erinevaid lehti
 const router = createRouter({
@@ -12,6 +13,12 @@ const router = createRouter({
     path: '/',              // Veebilehe juuraadress
     name: 'home',           // Marsruudi nimi
     component: HomeView     // Kuvatakse HomeView komponent
+    }
+    ,
+    {
+    path: '/signup',
+    name: 'signup',
+    component: SignupView
     }
   ],
 })

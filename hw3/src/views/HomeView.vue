@@ -2,6 +2,7 @@
 import { computed } from 'vue'
 import { useStore } from 'vuex'
 import PostCard from '../components/PostCard.vue'
+import ResetLikeButton from '../components/ResetLikeButton.vue'
 
 const store = useStore()
 
@@ -11,7 +12,7 @@ const posts = computed(() => store.state.posts)
 <template>
     <main class="index-main">
         <aside class="side-panel"></aside>
-
+        <ResetLikeButton />
         <section class="posts">
             <!-- 
                 Käib kõik postitused ükshaaval läbi ja iga postituse jaoks luuakse PostCard komponent.
