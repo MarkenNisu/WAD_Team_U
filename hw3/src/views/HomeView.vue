@@ -29,3 +29,17 @@ const posts = computed(() => store.state.posts)
         <aside class="side-panel"></aside>
     </main>
 </template>
+
+<style scoped>
+.index-main {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 20px;
+}
+
+.posts {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+</style>

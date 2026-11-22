@@ -86,11 +86,6 @@ function validatePassword() {
   border-radius: 5px;
 }
 
-.signup-page button {
-  padding: 10px;
-  cursor: pointer;
-}
-
 .errors {
   color: red;
   font-size: 14px;

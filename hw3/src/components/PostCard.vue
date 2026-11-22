@@ -49,3 +49,39 @@ const post = computed(() =>
         </button>
     </article>
 </template>
+
+
+<style scoped>
+.post {
+  background-color: white;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
+
+.post-header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+
+.post-profile {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.post-image {
+  max-width: 100%;
+  border-radius: 8px;
+}
+
+.like-button {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: 15px;
+}
+</style>
