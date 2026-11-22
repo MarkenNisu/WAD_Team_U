@@ -61,8 +61,8 @@ const post = computed(() =>
 
 .post-header {
   display: flex;
+  justify-content: space-between;
   align-items: center;
-  gap: 10px;
   margin-bottom: 15px;
 }
 
@@ -74,7 +74,11 @@ const post = computed(() =>
 }
 
 .post-image {
-  max-width: 100%;
+  display: block;
+  width: 100%;
+  max-width: 500px;
+  max-height: 550px;
+  object-fit: contain;
   border-radius: 8px;
 }
 
@@ -83,5 +87,11 @@ const post = computed(() =>
   align-items: center;
   gap: 8px;
   margin-top: 15px;
+  background-color: #e8e8e8;
+  color: #333;
+}
+
+.like-button:hover {
+  background-color: #d0d0d0;
 }
 </style>

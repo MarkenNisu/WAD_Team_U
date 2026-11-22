@@ -32,7 +32,7 @@ const posts = computed(() => store.state.posts)
 
 <style scoped>
 .index-main {
-  max-width: 900px;
+  max-width: 700px;
   margin: 40px auto;
   padding: 20px;
 }
